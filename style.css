@@ -1,0 +1,438 @@
+*{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	scroll-behavior: smooth;
+	word-break: keep-all;
+}
+body{
+	padding: 20px;
+}
+
+article{
+	position: absolute;
+	top: 80px;
+}
+
+h1,h2,h3{
+	margin-top: 0;
+	margin-bottom: 1.8vh;
+}
+
+a{
+	text-decoration: underline;
+	color: black;
+}
+a:visited{
+	color: inherit;
+}
+a:hover{
+	color: rgba(255,255,255,0);
+}
+
+.index{
+	color: black;
+	background: turquoise;
+	animation: index_background 3s;
+}
+
+@keyframes index_background{
+	from{background-color: black;}
+	to{background-color: turquoise;}
+}
+
+.hhss_1{
+	background: silver;
+	display: inline-block;
+	cursor: move;
+}
+
+.hhss_1 article{
+	width: 100%;
+	height: 100%;
+	cursor: all-scroll;
+}
+
+.hhss_1 .yh{
+	background-color: white;
+	box-shadow: cyan 3px 3px 3px;
+	position: absolute;
+	top: 10vh;
+	left: 40vw;
+	z-index: 999;
+}
+
+.hhss_1 .ym{
+	background-color: white;
+	box-shadow: cyan 3px 3px 3px;
+	position: absolute;
+	top: 80vh;
+	left: 900px;
+	z-index: 999;
+}
+
+.hhss_1 .ha{
+	background-color: white;
+	box-shadow: cyan 3px 3px 3px;
+	position: absolute;
+	top: 2100px;
+	left: 900px;
+	z-index: 999;
+}
+
+.hhss_1 .nb{
+	background-color: white;
+	box-shadow: cyan 3px 3px 3px;
+	position: absolute;
+	top: 3350px;
+	left: 400px;
+	z-index: 999;
+}
+
+
+.hhss_1 p{
+	background: white;
+	color: black;
+	overflow-y: auto;
+	padding: 10px;
+	margin: 10px;
+	/*box-shadow: turquoise 10px 10px 10px;*/
+
+}
+
+.hhss_house_p_1{
+	width: 16vw;
+	min-width: 150px;
+	height: auto;
+	position: absolute;
+	top: 20vh;
+	left: 40vw;
+}
+
+.hhss_house_p_2{
+	width: 16vw;
+	min-width: 150px;
+	height: 16vw;
+	min-height: 150px;
+	position: absolute;
+	top: 80vh;
+	left: 30px;
+}
+
+.hhss_house_p_3{
+	width: 100px;
+	height: 80px;
+	position: absolute;
+	top: 1600px;
+	left: 400px;
+}
+
+.hhss_house_p_4{
+	width: 230px;
+	height: 400px;
+	position: absolute;
+	top: 3300px;
+	left: 10px;
+}
+
+.hhss_1 img{
+	width: 20vw;
+	min-width:200px;
+	position: absolute;
+/*	border-radius: 50%;*/
+	margin: 10px;
+}
+
+/*연희*/
+.hhss_1 ._1{
+	top: 10vh;
+	left: 20vw;
+}
+
+/*용문동*/
+.hhss_1 ._2{
+	width: 80px;
+	top: 100vh;
+	left: 340px;
+}
+.hhss_1 ._3{
+	width: 500px;
+	top: 800px;
+	left: 800px;
+}
+
+.hhss_1 ._4{
+	width: 380px;
+	top: 700px;
+	left: 680px;
+	border-radius: 50%;
+}
+.hhss_1 ._5{
+	top: 110vh;
+	left: 30vw;
+}
+.hhss_1 ._6{
+	top: 50vh;
+	left: 500px;
+}
+
+/*후암동*/
+.hhss_1 ._7{
+	top: 1800px;
+	left: 200px;
+}
+
+.hhss_1 ._8{
+	width: 200px;
+	top: 1700px;
+	left: 600px;
+}
+
+.hhss_1 ._9{
+	width: 200px;
+	top: 1700px;
+	left: 800px;
+}
+.hhss_1 ._10{
+	width: 200px;
+	top: 1800px;
+	left: 1000px;
+}
+.hhss_1 ._11{
+	width: 200px;
+	top: 1800px;
+	left: 1200px;
+}
+.hhss_1 ._12{
+	width: 200px;
+	top: 1800px;
+	left: 1400px;
+}
+.hhss_1 ._13{
+	width: 200px;
+	top: 1800px;
+	left: 1600px;
+}
+.hhss_1 ._14{
+	width: 150px;
+	top: 2500px;
+	left: 1000px;
+}
+.hhss_1 ._15{
+	width: 150px;
+	top: 2600px;
+	left: 1210px;
+}
+.hhss_1 ._16{
+	width: 150px;
+	top: 2700px;
+	left: 1100px;
+}
+.hhss_1 ._17{
+	width: 300px;
+	top: 2800px;
+	left: 1500px;
+}
+.hhss_1 ._18{
+	width: 300px;
+	top: 2550px;
+	left: 1500px;
+}
+
+/*녹번동*/
+._19{
+	position: absolute;
+	top: 3400px;
+	left: 300px;
+}
+.hhss_1 ._19 img{
+	height: 200px;
+	display: inline-block;
+}
+
+
+
+.hhss_2{
+	background-color: #38C6A1;
+}
+.hhss_2 nav{
+/*	color: #68c8a4;*/
+	width: 100vw;
+/*	display: block;*/
+}
+
+.ok_instagram{
+	text-align: left;
+}
+.ok_instagram img{
+	width: 200px;
+	height: auto;
+}
+
+.ok_spray{
+	position: absolute;
+	left: 20vw;
+	width: 24vw;
+	height: 400px;
+	text-align: center;
+	overflow-y: auto;
+	cursor: s-resize;
+}
+
+.ok_spray img{
+	width: 24vw;
+}
+
+.ok_paint{
+	position: absolute;
+	top: 350px;
+	left: 45vw;
+	width: 24vw;
+	height: 400px;
+	text-align: center;
+	overflow-y: auto;
+	cursor: s-resize;
+}
+
+.ok_paint img{
+	width: 24vw;
+}
+
+.ok_colorchip{
+	position: absolute;
+	top: 400px;
+	left: 70vw;
+	width: 24vw;
+	height: 600px;
+	text-align: center;
+	overflow-y: auto;
+	cursor: s-resize;
+}
+
+.ok_colorchip img{
+	width: 24vw;
+}
+
+.ok_colorchange{
+	position: absolute;
+	top: 300px;
+	left: 83vw;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation: ok_colorchange 20s infinite alternate;
+}
+
+
+@keyframes ok_colorchange{
+	3.3%{background-color: #75DBC1;}
+	6.6%{background-color: #38C6A1;}
+	9.9%{background-color: #E1EFDD;}
+	13.2%{background-color: #EAEFE5;}
+	16.5%{background-color: #BFD5B3;}
+	19.8%{background-color: #e6e9bf;}
+	23.1%{background-color: #d7dfd9;}
+	26.4%{background-color: #cadbcb;}
+	29.7%{background-color: #dbe0d4;}
+	33%{background-color: #68c8a4;}
+	36.3%{background-color: #d3dba1;}
+	39.6%{background-color: #76c692;}
+	42.9%{background-color: #8bc982;}
+	46.2%{background-color: #7fb37f;}
+	49.5%{background-color: #a9cbb0;}
+	52.8%{background-color: #76bf98;}
+	56.1%{background-color: #5bc1a9;}
+	59.4%{background-color: #6ab7a7;}
+	62.7%{background-color: #63a491;}
+	66%{background-color: #e1dfd1;}
+	69.3%{background-color: #e0dfd7;}
+	72.6%{background-color: #b7c9b1;}
+	75.9%{background-color: #9bc2b1;}
+	79.2%{background-color: #48c1aa;}
+	82.5%{background-color: #56cbb3;}
+	85.8%{background-color: #7accb8;}
+	89.1%{background-color: #7bb5a3;}
+	92.4%{background-color: #3ab0a2;}
+	95.7%{background-color: #d6dec9;}
+	100%{background-color: white;}
+}
+
+
+.ok_milkglass{
+	position: absolute;
+	top: 120vh;
+	display: inline;
+}
+.ok_milkglass img{
+	width: 200px;
+	height: 267px;
+}
+
+.ok_milkglass ol{
+	width: 385px;
+	margin: 0;
+	color: black;
+	padding-left: 20px;
+}
+
+.ok_milkglass .magenta{
+	color: magenta;
+}
+.hhss_3{
+	height:100vh;
+	background: rgb(120,120,120);
+	position: absolute;
+	top: 20px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.hhss_3 nav{
+	position: fixed;
+	top: 20px;
+	z-index: 999;
+}
+
+.line_1{
+	height: 8px;
+	background: yellow;
+	margin-bottom: 7px;
+}
+.studiolist{
+	/*width: 200px;*/
+	white-space: nowrap;
+	overflow-x: scroll;
+	float: left;
+	display: inline;
+}
+
+.studiolist p{
+	display: inline-block;
+	margin-right: 20px;
+	width: 200px;
+	white-space: normal;
+	overflow-y: auto;
+}
+
+.studiolist video{
+	width: 180px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.hhss_4{
+	background: black;
+	color: silver;
+}
+.pemmican{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.pemmican img{
+	width: 500px;
+}
